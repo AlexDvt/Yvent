@@ -1,5 +1,6 @@
 # Yvent
 
+
 ### Start project
 
 From CMD : 
@@ -7,6 +8,7 @@ From CMD :
 
 From VS Code terminal : 
 ```npm start```  (run ```npm install``` before the first time you launch the app)
+
 
 ### Ionic documentation
 
