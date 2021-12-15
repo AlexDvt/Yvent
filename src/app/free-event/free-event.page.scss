@@ -82,6 +82,12 @@
     top: 77%;
 }
 
+.ParticipantSubTitle {
+    position: absolute;
+    left: 7%;
+    top: 83%;
+}
+
 .ParticipantN1 {
     position: absolute;
     height: 35px;
@@ -172,4 +178,9 @@
     font-size: 130%;
     font-weight: 100px;
     color: white;
+}
+
+p.BoldText {
+    
+    font-weight: bold;
 }
