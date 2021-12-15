@@ -10,7 +10,23 @@ const routes: Routes = [
     path: '',
     redirectTo: 'home',
     pathMatch: 'full'
+  },  {
+    path: 'free-event',
+    loadChildren: () => import('./free-event/free-event.module').then( m => m.FreeEventPageModule)
   },
+  {
+    path: 'pay-event',
+    loadChildren: () => import('./pay-event/pay-event.module').then( m => m.PayEventPageModule)
+  },
+  {
+    path: 'single-ticket',
+    loadChildren: () => import('./single-ticket/single-ticket.module').then( m => m.SingleTicketPageModule)
+  },
+  {
+    path: 'profil',
+    loadChildren: () => import('./profil/profil.module').then( m => m.ProfilPageModule)
+  },
+
 ];
 
 @NgModule({
