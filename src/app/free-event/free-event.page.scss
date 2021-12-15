@@ -180,7 +180,12 @@
     color: white;
 }
 
-p.BoldText {
-    
+p.Bold {
+    display:contents;
     font-weight: bold;
+}
+
+p.LightItalic {
+    display:contents;
+    font-weight:italic;
 }
